@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #00a816;
+  padding: auto;
+}
+
+
+
 
 
 .die-value-6, .die-value-5, .die-value-4, .die-value-3, .die-value-2, .die-value-1 {
@@ -61,7 +68,7 @@
   cursor: pointer;
   width: 300px;
   min-height: 50px;
-  background: #00a816;
+  background: red;
   color: #fff;
   padding: 1.5em;
   border-radius: 5px;
@@ -136,7 +143,7 @@
   cursor: not-allowed;
 }
 .button.yes {
-  background: #00a816;
+  background: red;
   color: #fff;
 }
 .button.yes:hover {
@@ -265,7 +272,7 @@
   cursor: pointer;
 }
 .score span.saving {
-  background-color: #00a816;
+  background-color: red;
 }
 .score span.saved {
   background-color: #129ff8;
